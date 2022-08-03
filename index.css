@@ -5,6 +5,9 @@
     outline: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .menu{
     background-color: rgb(0, 0, 0);
     height: 170px;
@@ -26,7 +29,7 @@
 .flota_text2{
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 240px;
+    padding-bottom: 20px;
 }
 .flota_text2 img{
     width: 800px;
