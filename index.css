@@ -26,14 +26,13 @@
 .flota_text2{
     text-align: center;
     padding-top: 20px;
-    backdrop-filter: blur(2px);
 }
 .flota_text2 img{
     width: 600px;
 }
 
 .flota_img{
-    background: rgba(36, 36, 36, 0.158) url(./img/Sin\ título-1.png);
+    background: rgba(36, 36, 36, 0.158) url(./img/background.jpg);
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
@@ -46,7 +45,6 @@
     color: white;
     line-height:50px;
     text-shadow: 0 2px 0 rgb(0, 0, 0);
-    backdrop-filter: blur(2px);
 }
 .wp{
     bottom: 30px;
