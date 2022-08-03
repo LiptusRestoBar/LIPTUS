@@ -26,9 +26,10 @@
 .flota_text2{
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 240px;
 }
 .flota_text2 img{
-    width: 600px;
+    width: 800px;
 }
 
 .flota_img{
@@ -95,7 +96,7 @@
         color: white;
     }
     .flota_text2 img{
-        width: 300px;
+        width: 320px;
     }
 }
 @media screen and (max-width: 858px) and (orientation: landscape){
