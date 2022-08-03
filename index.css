@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    height: 170px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 0 10px rgba(0,0,0,0.6);
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.logo a img{
+    width: 290px;
+    height: 150px;
+}
+.flota_text2{
+    text-align: center;
+    padding-top: 20px;
+}
+.flota_text2 img{
+    width: 600px;
+}
+
+.flota_img{
+    background: rgba(36, 36, 36, 0.158) url(./img/Sin\ título-1.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.flota_text{
+    text-align: center;
+    padding: 370px;
+    color: white;
+    line-height:50px;
+    text-shadow: 0 2px 0 rgb(0, 0, 0);
+}
+.wp{
+    bottom: 30px;
+    right: 60px;
+    position:fixed;
+    font-size: 50px;
+    cursor:pointer;
+    z-index: 1;
+}
+.wp a{
+    text-decoration:none;
+    color: green;
+}
+@media screen and (max-width: 952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    .logo a img{
+        width: 290px;
+        height: 150px;
+    }
+    .flota_text{
+        text-align: center;
+        padding: 170px;
+    }
+    .flota_text2 img{
+        width: 250px;
+    }
+    .wp{
+        font-size: 40px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+@media screen and (max-width: 858px){
+    .menu{
+        height: 95px;
+    }
+    .logo a img{
+        width: 140px;
+        height: 90px;
+    }
+    .flota_text{
+        font-size: 10px;
+        text-align: center;
+        padding: 70px;
+        color: white;
+    }
+}
+@media screen and (max-width: 858px) and (orientation: landscape){
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}
