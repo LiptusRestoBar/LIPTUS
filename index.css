@@ -94,6 +94,9 @@
         padding: 70px;
         color: white;
     }
+    .flota_text2 img{
+        width: 390px;
+    }
 }
 @media screen and (max-width: 858px) and (orientation: landscape){
     .menu_items li{
@@ -102,5 +105,8 @@
     .menu_items {
         overflow: scroll;
         height: calc(100% - 65px);
+    }
+    .flota_text2 img{
+        width: 390px;
     }
 }
