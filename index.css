@@ -60,7 +60,7 @@ body{
 }
 .wp a{
     text-decoration:none;
-    color: green;
+    color: #39b54a;
 }
 @media screen and (max-width: 952px){
     .logo{
