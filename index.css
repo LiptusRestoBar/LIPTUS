@@ -25,11 +25,11 @@ body{
     display:flex;
     justify-content: space-evenly;
 }
-.menu_text h1{
+.menu_text h2{
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
 }
-.menu_text a{
+.menu_text h2 a{
     text-decoration: none;
     color: #39b54a;
 }
@@ -105,11 +105,11 @@ body{
         display:flex;
         justify-content: space-evenly;
     }
-    .menu_text h1{
+    .menu_text h2{
         font-size: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
     }
-    .menu_text a{
+    .menu_text h2 a{
         text-decoration: none;
         color: #39b54a;
     }
@@ -142,7 +142,7 @@ body{
         font-size: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
     }
-    .menu_text a{
+    .menu_text h2 a{
         text-decoration: none;
         color: #39b54a;
     }
@@ -165,11 +165,11 @@ body{
         display:flex;
         justify-content: space-evenly;
     }
-    .menu_text h1{
+    .menu_text h2{
         font-size: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
     }
-    .menu_text a{
+    .menu_text h2 a{
         text-decoration: none;
         color: #39b54a;
     }
